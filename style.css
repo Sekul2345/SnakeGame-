@@ -1,0 +1,65 @@
+@media (max-width: 600px) {
+    #gameBoard {
+        width: 95%; 
+    }
+
+    #score {
+        font-size: 1.5em; 
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh; 
+    justify-content: center; 
+}
+
+
+h2 {
+    color: rgb(12, 153, 35);
+    font-size: 30px;
+}
+
+
+#msg {
+    margin-bottom: 1em;
+}
+
+
+#gameBoard {
+    border: 3px solid;
+    width: 90%; 
+    max-width: 500px; 
+    height: auto;
+    aspect-ratio: 1 / 1; 
+}
+
+
+#score {
+    margin-top: 1em;
+    font-size: 2em;
+}
+
+
+#id {
+    background-color: rgb(55, 114, 167);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+
